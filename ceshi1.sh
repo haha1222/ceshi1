@@ -32,3 +32,7 @@ wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.
 chmod +x shadowsocks-all.sh
 
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+
+echoContent yellow "\n恭喜你，成功安装甲骨文。\n"
+
+echoContent blue "\n你可以正式畅游海外国际互联网络\n"
