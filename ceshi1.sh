@@ -23,11 +23,11 @@ sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/s
 
 sudo service sshd restar
 
-wget -N https://raw.githubusercontent.com/fscarmen/warp/main/menu.sh && chmod +x menu.sh && ./menu.sh
+wget -N https://github.com/haha1222/ceshi1/blob/main/menu.sh && chmod +x menu.sh && ./menu.sh
 
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+wget -P /root -N --no-check-certificate "https://github.com/haha1222/ceshi1/blob/main/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+wget --no-check-certificate -O shadowsocks-all.sh https://github.com/haha1222/ceshi1/blob/main/shadowsocks-all.sh
 
 chmod +x shadowsocks-all.sh
 
