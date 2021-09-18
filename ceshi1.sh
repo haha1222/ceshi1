@@ -15,13 +15,13 @@ iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
 
 /etc/init.d/netfilter-persistent reload
 
-echo root:4966862Wwc, |sudo chpasswd root
-
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
 
 sudo service sshd restar
+
+passwd
 
 wget -N https://github.com/haha1222/ceshi1/blob/main/menu.sh && chmod +x menu.sh && ./menu.sh
 
