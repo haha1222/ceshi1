@@ -23,7 +23,7 @@ sudo service sshd restar
 
 passwd
 
-wget <(curl -fsSL git.io/warp.sh) 6 && chmod +x menu.sh && ./menu.sh
+bash <(curl -fsSL git.io/warp.sh) 6
 
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 
